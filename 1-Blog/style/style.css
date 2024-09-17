@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Logo */
+
+.header-logo {
+  text-decoration: none;
+}
+
+.header-logo__logo {
+  font-family: "Source Code Pro", sans-serif;
+  color: #fff;
+  background-color: #4b5563;
+  text-align: center;
+  padding: 12px 6px;
+  width: 35px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.63px;
+  box-shadow: 0px 15px 30px 0px #00000026;
+}
+
+/* Nav */
+
+.header-nav__a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+
+.header-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Input */
+
+.header-form__input {
+  background: #1f293799;
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 18.75px;
+  border: none;
+}
+
+/* title */
+
+.article-title__date {
+  color: #adb1b7;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.article-title__name {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.article-title__avtor {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.article-title__spec {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #adb1b7;
+}
+
+/* Article */
+
+.article-text-h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.article-text-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer {
+  color: #adb1b7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
