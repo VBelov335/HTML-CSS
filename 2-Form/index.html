@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Form</title>
   </head>
   <body>
     <main>
       <section>
         <form action="#">
-          <h1>Регистрация</h1>
-          <div>Уже есть аккаунт? <a href="#">Войти</a></div>
+          <h1 class="h1">Регистрация</h1>
+          <p class="login">Уже есть аккаунт? <a href="#" class="link">Войти</a></p>
           <div>
             <label for="text"></label>
             <input
@@ -24,18 +28,22 @@
           </div>
           <div>
             <label for="name"></label>
+
             <input type="text" name="name" id="name" placeholder="Имя" required/>
           </div>
           <div>
             <label for="s-name"></label>
             <input type="text" name="s-name" id="s-name" placeholder="Фамилия" required/>
+
           </div>
           <div>
             <label for="Email"></label>
             <input
               type="email"
               name="email"
+
               id="email"
+
               placeholder="E-mail"
               title="Введите Email"
               required
@@ -46,8 +54,7 @@
             <input type="checkbox" id="checkbox" name="checkbox" required/>
             <label for="checkbox"
               >Я прочитал и принимаю
-              <a href="#">Условия использования</a></label
-            >
+              <a href="#">Условия использования</a></label>
           </div>
         </form>
       </section>
