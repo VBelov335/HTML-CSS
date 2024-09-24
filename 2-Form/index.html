@@ -14,85 +14,68 @@
   </head>
   <body>
     <main>
-      <div class="wrapper">
-        <section>
-          <form action="#">
+      <section>
+        <form action="#">
+          <div class="title">
             <h1 class="h1">Регистрация</h1>
             <p class="login">
               Уже есть аккаунт? <a href="#" class="link">Войти</a>
             </p>
-            <div class="flex">
-              <div>
-                <label for="text"></label>
-                <input
-                  class="input-flex"
-                  type="text"
-                  name="text"
-                  id="text"
-                  placeholder="Название компании"
-                  value="Мой компания"
-                  required
-                />
-              </div>
-              <div class="input-flex_name">
-                <div>
-                  <label for="name"></label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="input-flex"
-                    placeholder="Имя"
-                    required
-                  />
-                </div>
-                <div>
-                  <label for="s-name"></label>
-                  <input
-                    type="text"
-                    name="s-name"
-                    id="s-name"
-                    class="input-flex"
-                    placeholder="Фамилия"
-                    required
-                  />
-                </div>
-              </div>
-              <div>
-                <label for="Email"></label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="input-flex"
-                  placeholder="E-mail"
-                  title="Введите Email"
-                  required
-                />
-              </div>
-              <button class="button">
-                Зарегистрироваться<img
-                  src="./images/Arrow 1.svg"
-                  class="img_button"
-                  alt="Изображение стрелки Зарегистрироваться"
-                />
-              </button>
-              <div class="form_footer">
-                <input
-                  type="checkbox"
-                  class="checkbox"
-                  name="checkbox"
-                  required
-                />
-                <label for="checkbox"
-                  >Я прочитал и принимаю
-                  <a href="#" class="footer">Условия использования</a>
-                </label>
-              </div>
+          </div>
+          <div>
+            <input
+              class="input-flex"
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Название компании"
+              value="Мой компания"
+              required
+            />
+          </div>
+          <div class="input-flex_name">
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="input-flex"
+                placeholder="Имя"
+                required
+              />
             </div>
-          </form>
-        </section>
-      </div>
+            <div>
+              <input
+                type="text"
+                name="s-name"
+                id="s-name"
+                class="input-flex"
+                placeholder="Фамилия"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-flex"
+              placeholder="E-mail"
+              title="Введите Email"
+              required
+            />
+          </div>
+          <button class="button">Зарегистрироваться</button>
+          <div class="form_footer">
+            <input type="checkbox" class="checkbox" name="checkbox" required />
+            <label for="checkbox"
+              >Я прочитал и принимаю
+              <a href="#" class="footer">Условия использования</a>
+            </label>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
