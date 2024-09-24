@@ -24,8 +24,8 @@
         <div class="header_flex">
           <div class="header">
             <a href="#" class="header-logo">
-              <p class="header-logo__logo">B</p>
-              <p class="header-logo__text">Мой блог</p>
+              <span class="header-logo__logo">B</span>
+              <span class="header-logo__text">Мой блог</span>
             </a>
             <nav>
               <ul class="header-nav">
@@ -36,21 +36,18 @@
             </nav>
           </div>
           <form action="#" method="get">
-            <div class="fixed">
-              <label for="search">
+              <label for="search" class="searchquery">
                 <img
                   src="./images/search.svg"
                   alt="Изоброжение поиска"
-                  class="img"
                 />
               </label>
               <input
+              placeholder="Поиск"
                 type="search"
-                placeholder="Поиск"
-                name="search"
-                class="header-form__input"
+                name="q"
+                id="searchquery"
               />
-            </div>
           </form>
         </div>
       </div>
