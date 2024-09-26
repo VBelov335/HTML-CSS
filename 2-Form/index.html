@@ -3,21 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Form</title>
   </head>
   <body>
     <main>
       <section>
         <form action="#">
-          <h1 class="h1">Регистрация</h1>
-          <p class="login">Уже есть аккаунт? <a href="#" class="link">Войти</a></p>
+          <div class="title">
+            <h1 class="h1">Регистрация</h1>
+            <p class="login">
+              Уже есть аккаунт? <a href="#" class="link">Войти</a>
+            </p>
+          </div>
           <div>
-            <label for="text"></label>
             <input
+              class="input-flex"
               type="text"
               name="text"
               id="text"
@@ -26,35 +33,46 @@
               required
             />
           </div>
-          <div>
-            <label for="name"></label>
-
-            <input type="text" name="name" id="name" placeholder="Имя" required/>
+          <div class="input-flex_name">
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="input-flex"
+                placeholder="Имя"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="s-name"
+                id="s-name"
+                class="input-flex"
+                placeholder="Фамилия"
+                required
+              />
+            </div>
           </div>
           <div>
-            <label for="s-name"></label>
-            <input type="text" name="s-name" id="s-name" placeholder="Фамилия" required/>
-
-          </div>
-          <div>
-            <label for="Email"></label>
             <input
               type="email"
               name="email"
-
               id="email"
-
+              class="input-flex"
               placeholder="E-mail"
               title="Введите Email"
               required
             />
           </div>
-          <button class="button">Отправить</button>
-          <div>
-            <input type="checkbox" id="checkbox" name="checkbox" required/>
+          <button class="button">Зарегистрироваться</button>
+          <div class="form_footer">
+            <input type="checkbox" class="checkbox" name="checkbox" required />
             <label for="checkbox"
               >Я прочитал и принимаю
-              <a href="#">Условия использования</a></label>
+              <a href="#" class="footer">Условия использования</a>
+            </label>
           </div>
         </form>
       </section>
