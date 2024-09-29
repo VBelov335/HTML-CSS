@@ -1,0 +1,24 @@
+:root {
+  --color-text-bottom: rgba(78, 93, 124, 0.5);
+  --color-text-blaсk: #000000;
+  --color-white: #ffffff;
+  --color-bg-blue: #357efe;
+  --color-text: #4e5d7c;
+  --color-border: rgba(78, 93, 124, 0.08);
+  --color-bg-green: #1ABC9C;
+  --color-bg-yellow: #FFC736;
+
+  --border-8: 8px;
+  --border-47: 47px;
+
+  --shadow-32: 0px 0px 32px 0px #4e5d7c29;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
